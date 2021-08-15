@@ -2,7 +2,7 @@ tasks:
   Default:
     command:
       - python
-      - task.pys
+      - task.py
 
 condaConfigFile: conda.yaml
 artifactsDir: output

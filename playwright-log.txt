@@ -1,1 +1,99 @@
-{"level":30,"time":"2021-08-15T16:37:42.978Z","pid":79742,"hostname":"Alessandros-MacBook-Pro.local","msg":"Listening on 58678"}
+{"level":30,"time":"2021-08-15T17:08:12.142Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Listening on 59603"}
+{"level":30,"time":"2021-08-15T17:08:16.725Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-15T17:08:16.732Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2021-08-15T17:08:16.772Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2021-08-15T17:08:16.782Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-15T17:08:17.637Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2021-08-15T17:08:17.639Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2021-08-15T17:08:21.900Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:08:21.869Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-7UBK18LD57</p><p>Address 123</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 2</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:08:25.561Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:08:25.535Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-C14OJ24G5I</p><p>Address 456</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 4</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:08:29.095Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:08:29.074Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-7RPEZJED8O</p><p>Address 789</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 6</div><div>Body: 2</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:08:32.701Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:08:32.678Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-QO1ISN7WCT</p><p>Address 1</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 2</div><div>Body: 3</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//div[@id='receipt']"
+============================================================
+    at Object.<anonymous> (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25606:50)
+    at step (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25579:23)
+    at Object.next (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25560:53)
+    at fulfilled (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25551:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-15T17:08:46.351Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:08:46.325Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-HNCD7IC265</p><p>Address 2</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 5</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:08:50.095Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:08:50.022Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-BL7YGYZ5IJ</p><p>Address 3</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 6</div><div>Legs: 6</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//div[@id='receipt']"
+============================================================
+    at Object.<anonymous> (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25606:50)
+    at step (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25579:23)
+    at Object.next (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25560:53)
+    at fulfilled (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25551:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-15T17:09:03.884Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:09:03.857Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-Q9GF2JG30H</p><p>Address 4</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 5</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:09:07.599Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:09:07.549Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-6KKC95B5K</p><p>Address 5</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 2</div><div>Body: 3</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//div[@id='receipt']"
+============================================================
+    at Object.<anonymous> (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25606:50)
+    at step (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25579:23)
+    at Object.next (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25560:53)
+    at fulfilled (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25551:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-15T17:09:21.312Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:09:21.281Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-IWIRNCN2E5</p><p>Address 6</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 2</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//div[@id='receipt']"
+============================================================
+    at Object.<anonymous> (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25606:50)
+    at step (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25579:23)
+    at Object.next (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25560:53)
+    at fulfilled (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25551:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-15T17:09:35.065Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:09:35.038Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-5UUQ31PPCN</p><p>Address 7</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 4</div><div>Body: 4</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:09:38.768Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:09:38.738Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-OG0ADR4CYV</p><p>Address 8</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 6</div><div>Body: 6</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//div[@id='receipt']"
+============================================================
+    at Object.<anonymous> (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25606:50)
+    at step (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25579:23)
+    at Object.next (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25560:53)
+    at fulfilled (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25551:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-15T17:09:52.463Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:09:52.436Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-TZKXYLHLA</p><p>Address 9</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 3</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//div[@id='receipt']"
+============================================================
+    at Object.<anonymous> (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25606:50)
+    at step (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25579:23)
+    at Object.next (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25560:53)
+    at fulfilled (/Users/almosca/.robocorp/live/ca9c2ed3597c2e99/lib/python3.7/site-packages/Browser/wrapper/index.js:25551:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-15T17:10:06.220Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:06.180Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-349QAZYZAM</p><p>Address A</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 5</div><div>Legs: 4</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:09.924Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:09.865Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-L732W5B3G</p><p>Address B</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:13.552Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:13.488Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-M32ENGSRUD</p><p>Address C</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 2</div><div>Legs: 6</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:17.091Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:17.073Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-PO7TBPKMTB</p><p>Address D</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 6</div><div>Body: 3</div><div>Legs: 6</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:20.691Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:20.672Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-K0OD5LA0LK</p><p>Address E</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 5</div><div>Body: 4</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:24.346Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:24.287Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-RHT1I8QJ0C</p><p>Address F</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 2</div><div>Body: 5</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:27.897Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:27.877Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-UDP0K1U9EA</p><p>Address G</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 4</div><div>Body: 6</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-15T17:10:31.528Z","pid":81016,"hostname":"Alessandros-MacBook-Pro.local","msg":"Retrieved dom property for element xpath=//div[@id='receipt'] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-15T17:10:31.460Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-IB563RSCML</p><p>Address H</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}

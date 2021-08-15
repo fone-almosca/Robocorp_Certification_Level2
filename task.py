@@ -58,7 +58,7 @@ def process_the_orders():
              for row in reader:
                 fill_the_form(row)
                 time.sleep(1)
-             print("Process completed!")
+             #rint("Process completed!")
     else: 
         print("file does not exist")
 
@@ -103,7 +103,7 @@ def fill_the_form(row):
                 order_complete = generate_pdf(row["Order number"], preview_filename)
                 if order_complete: 
                     insert_new_order()
-                    print("Order " + str(row["Order number"]) + " completed")
+                    #print("Order " + str(row["Order number"]) + " completed")
                 if attempts_2 == 3:
                     #print("Order " + str(row["Order number"]) + " failed generating order")
                     break
